@@ -1,0 +1,57 @@
+@CHARSET "UTF-8";
+
+* {
+	padding:5px;
+	margin: 0px;
+}
+
+body{
+	background-color: #FF9;
+	text-align:center;
+	line-height:1.5em;
+	font-family:"ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+}
+
+h1{
+	font-family:"ＭＳ ゴシック", "MS Gothic", "Osaka－等幅", Osaka-mono, monospace;
+	font-size:xx-large;
+	font-weight:900;
+}
+
+li {
+	text-decoration:underline;
+	list-style-type: none;
+	font-family:"ＭＳ ゴシック", "MS Gothic", "Osaka－等幅", Osaka-mono, monospace;
+	font-style:italic;
+	font-size:larger;
+	font-weight:400;
+	line-height:2em;
+	width:50%;
+	margin:0 auto;
+}
+
+li:hover {
+	text-decoration:none;
+	font-style:normal;
+	background-color: #6C9;
+	font-weight:900;
+	color:#FFF;
+}
+
+table {
+	width:600px;
+	background:white;
+	border:2px black solid;
+	border-collapse:collapse;
+	margin:0 auto;
+}
+
+th {
+	border:1px black solid;
+	background-color: #6C9;
+}
+
+td {
+	border:1px black solid;
+	text-align:left;
+}
